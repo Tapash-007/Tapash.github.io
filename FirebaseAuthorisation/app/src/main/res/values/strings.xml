@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FirebaseAuthorisation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat">Chat</string>
+    <string name="receiver">Receiver</string>
+    <string name="sender">Sender</string>
+    <string name="type_here">type here..........</string>
+    <string name="chat_activity">Chat Activity</string>
+    <string name="snapchat">SnapChat</string>
+    <string name="enter_your_message">Enter your message..........</string>
+    <string name="logout">Logout</string>
+</resources>

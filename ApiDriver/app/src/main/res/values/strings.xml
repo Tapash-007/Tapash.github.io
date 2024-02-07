@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ApiDriver</string>
+    <string name="driver_id">Driver_Id -</string>
+    <string name="name">Name -</string>
+    <string name="family_name">Family Name -</string>
+    <string name="dob">DOB -</string>
+    <string name="nationality">Nationality -</string>
+</resources>
