@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    android:layout_margin="10dp"
+    android:elevation="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:padding="16dp">
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="120dp"
+       android:id="@+id/image"
+       android:layout_weight="0.5"
+       android:src="@drawable/ima1"
+       android:layout_marginBottom="16dp"
+       android:padding="8dp"
+       android:scaleType="centerCrop"
+       android:adjustViewBounds="true"
+       android:contentDescription="image">
+
+   </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:layout_weight="0.5">
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/Id"
+         android:text="Id"
+         android:maxLines="1"
+         android:ellipsize="end"
+         android:textSize="10sp"
+         android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/name"
+            android:textSize="10sp"
+            android:layout_marginBottom="10dp"/>
+
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Width"
+            android:id="@+id/width"
+            android:textSize="10sp"
+             android:layout_marginBottom="10dp"/>
+
+           <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:id="@+id/height"
+            android:textSize="10sp"
+           android:layout_marginBottom="10dp"/>
+
+           <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Box_Count"
+            android:id="@+id/box_count"
+            android:textSize="10sp"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+

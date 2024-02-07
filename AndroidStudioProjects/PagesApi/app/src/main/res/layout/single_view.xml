@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:elevation="16dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="270dp"
+            android:id="@+id/img_api"
+            android:contentDescription="image"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cat"
+            android:scaleType="centerCrop"/>
+
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/Id1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Id"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+      <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Email"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+         <TextView
+            android:id="@+id/first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="First_name"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+          <TextView
+            android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Last_name"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+         <TextView
+            android:id="@+id/avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Avatar"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+
+
+         </TextView>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
